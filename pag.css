@@ -1,0 +1,86 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+nav {
+  position: fixed;
+  margin-left: 130px;
+  padding: 1px;
+}
+
+header {
+  background-image: url(../img/headerimg.jpg);
+  background-size: 700px 200px;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+button {
+  background-color: #000D1A;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+h1 { font-size: 60px; width: 430px; color: #CC3300; background-color: #000D1A;
+     padding: 10px;
+     border-radius: 10px 20px 20px 10px;
+}
+
+h2 { font-size: 35px; color: #CC3300; text-align: left; background-color: #000D1A; width: 350px; 
+  border-radius: 20px 120px 20px 20px;
+}
+
+h3 { color: #CC3300; text-align: center; font-size: 28px; 
+}
+
+h4 { color: #CC3300; text-align: left; font-size: 20px; 
+}
+
+p { text-align: left; }
+
+.data {
+  text-align: right;
+}
+
+
+hr { width: 600px; margin-left: 200px; }
+
+article {
+  margin: 10px;
+  padding: 5px;
+  background-color: #000D1A;
+  border-radius: 10px;
+}  
+
+section {
+  text-align: center;
+  position: fixed;
+  margin: 2px; margin-right: 8px;
+  padding: 3px;
+  background-color: #000D1A;
+  border-radius: 10px;
+}
+
+a {  color: #FFFFFF; }
+  
+.ante {
+  float: left;
+}
+
+.prox {
+  float: right;
+}
+
+footer {
+  background-color: #000D1A;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 30px; margin-left: 70px;
+  padding: 20px;
+  border-radius: 10px 10px 30px 30px;
+  width: 700px;
+}
